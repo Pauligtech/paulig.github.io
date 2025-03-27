@@ -38,11 +38,15 @@ section {
 }
 
 #about {
-    background-color: #f0f0f0;
+    background-color: #e0e0e0;  /* Set a background color */
+    padding: 50px;  /* Adjust padding */
+    text-align: center;
 }
 
 #news {
-    background-color: #e0e0e0;
+    background-color: #c0c0c0;
+    padding: 50px;
+    text-align: center;
 }
 
 #cv {
