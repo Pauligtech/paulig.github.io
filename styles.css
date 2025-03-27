@@ -1,0 +1,63 @@
+/* Basic Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover Effect for Links */
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f0f0f0;
+}
+
+#news {
+    background-color: #e0e0e0;
+}
+
+#cv {
+    background-color: #d0d0d0;
+}
+
+#blog {
+    background-color: #c0c0c0;
+}
+
+#other {
+    background-color: #b0b0b0;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
